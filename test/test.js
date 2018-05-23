@@ -31,7 +31,7 @@ describe('assert', function () {
     // 修改下面代码使得满足测试描述
     assert.throws(fn, function(err) {
     if ((err instanceof Error)) {
-      return true;
+      return true
     }
   })
   })
